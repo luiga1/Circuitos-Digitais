@@ -1,0 +1,15 @@
+|dec2bVHD
+in_dec[0] => Equal0.IN0
+in_dec[0] => Equal1.IN0
+in_dec[0] => Equal2.IN1
+in_dec[0] => Equal3.IN0
+in_dec[1] => Equal0.IN1
+in_dec[1] => Equal1.IN1
+in_dec[1] => Equal2.IN0
+in_dec[1] => Equal3.IN1
+out_dec[3] <= out_dec[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+out_dec[2] <= out_dec[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+out_dec[1] <= out_dec[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+out_dec[0] <= out_dec[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
