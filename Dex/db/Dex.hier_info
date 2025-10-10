@@ -1,0 +1,14 @@
+|Dex
+pin_name <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+sel_1 => inst.IN0
+sel_1 => inst9.IN0
+sel_1 => inst10.IN0
+sel_0 => inst6.IN0
+sel_0 => inst10.IN1
+sel_0 => inst8.IN0
+in_a => inst14.IN1
+in_c => inst12.IN1
+in_d => inst11.IN1
+in_b => inst13.IN1
+
+
