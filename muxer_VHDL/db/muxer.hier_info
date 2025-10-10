@@ -1,0 +1,16 @@
+|muxer
+in_a => out_x~1.IN1
+in_b => out_x~3.IN1
+in_c => out_x~6.IN1
+in_d => out_x~9.IN1
+sel_1 => out_x~8.IN0
+sel_1 => out_x~5.IN0
+sel_1 => out_x~2.IN0
+sel_1 => out_x~0.IN0
+sel_0 => out_x~8.IN1
+sel_0 => out_x~2.IN1
+sel_0 => out_x~5.IN1
+sel_0 => out_x~0.IN1
+out_x <= out_x~10.DB_MAX_OUTPUT_PORT_TYPE
+
+

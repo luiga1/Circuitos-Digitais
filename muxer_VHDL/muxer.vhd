@@ -1,0 +1,21 @@
+entity muxer is
+	port( in_a	:	in bit;
+		  in_b  :   in bit;
+		  in_c  :   in bit;
+		  in_d  :   in bit;
+		  sel_1 :   in bit;
+		  sel_0	:	in bit;
+		  out_x : 	out bit
+		  );
+		  
+end muxer;
+
+architecture muxerBehave of muxer is 
+begin
+	
+	out_x <= (in_a and (not(sel_1) and not(sel_0))) or
+			 (in_b and (not(sel_1) and sel_0))	or
+			 (in_c and (sel_1 and not(sel_0)))    or
+			 (in_d and (sel_1 and sel_0));
+			 
+end muxerBehave;
