@@ -1,0 +1,9 @@
+|flipflop-jk
+Q <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Preset => inst.IN0
+clear => inst5.IN0
+In => inst4.IN0
+In => inst6~0.IN1
+trigger => inst6.CLK
+
+
